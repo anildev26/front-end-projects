@@ -2,8 +2,8 @@ var crsr = document.getElementById("cursor");
 var crsrBlur = document.getElementById("cursor-blur")
 document.addEventListener("mousemove", function(e){
  console.log(crsr);
-    crsr.style.left = e.x+"px"
-    crsr.style.top = e.y+"px"
+    var crsrL = crsr.style.left = e.x+"px"
+    var crsrT = crsr.style.top = e.y+"px"
     crsrBlur.style.left = e.x-240+"px"
     crsrBlur.style.top = e.y-240+"px"
 
