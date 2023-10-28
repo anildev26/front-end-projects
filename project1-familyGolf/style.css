@@ -129,9 +129,11 @@ background-color: rgb(0, 0,0, 0.37);
     position: relative;
     z-index: 10;
 }
+
 #scroller::-webkit-scrollbar{
     display: none;
 }
+
 #scroller-in {
     display: inline-block;
     white-space: nowrap;
