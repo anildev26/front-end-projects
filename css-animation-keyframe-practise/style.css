@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  background-color: seagreen;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: anime;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* animation-fill-mode: forwards; */
+  animation-direction: alternate;
+}
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  position: relative;
+  font-style: italic;
+}
+
+h2::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 10px;
+    bottom: 0;
+    background-color: #000;
+    left: 0;
+    /* animation: lineAnimation 2s linear 1s infinite  forwards ; */
+    
+    /*  */
+}
+
+h2:hover::after{
+    animation-name: lineAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lineAnimation {
+    0% {
+        width: 0%;
+        left: 0%;
+    }
+    50% {
+        width: 100%;
+        left: 0%;
+    }
+    100% {
+        width: 0%;
+        left: 100%;
+    }
+}
+
+@keyframes anime {
+  0% {
+    left: 5%;
+    background-color: navajowhite;
+    top: 10%;
+  }
+  30% {
+    left: 84%;
+    background-color: blue;
+    top: 0%;
+  }
+  60% {
+    left: 84%;
+    background-color: black;
+    top: 78%;
+  }
+  100% {
+    left: 10%;
+    background-color: navajowhite;
+    top: 30%;
+  }
+}
