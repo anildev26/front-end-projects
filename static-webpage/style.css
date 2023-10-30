@@ -31,6 +31,13 @@
     background-color: rgba(0, 0, 0, 0.301);
 }
 
+#pissing_guy{
+    position: absolute;
+    top: 220px;
+    left: 280px;
+    width: 300px;
+    height: 160px;
+}
 #text{
     align-items: center;
     display: flex;
