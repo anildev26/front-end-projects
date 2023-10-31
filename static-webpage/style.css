@@ -10,7 +10,6 @@
 #main-container {
   min-height: 100vh;
   width: 100%;
-  position: fixed;
   background-color: #393c4ee1;
   color: #fff;
 }
@@ -20,20 +19,11 @@
 #top-div {
   min-height: 60vh;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1450849608880-6f787542c88a?auto=format&fit=crop&q=80&w=2021&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(/static-webpage/images/top-div.png);
   background-position: bottom;
   background-size: cover;
   display: flex;
 }
-
-/* -----------------------Bakchodi (background image pe) ----------------------- */
-/* #pissing_guy {
-    position: absolute;
-    top: 192px;
-    left: 194px;
-    width: 350px;
-    height: 200px;
-} */
 
 /* -----------------------Overlay with all text part----------------------- */
 
@@ -63,19 +53,17 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 #profile-nav i {
-  font-size: 35px;
-  padding-right: 20px;
+  font-size: 45px;
+  padding-right: 15px;
   color: #ff3800;
-  /* text-align: center; */
 }
 
 #profile-nav p {
-  font-size: 14px;
-  /* padding-right: 90%; */
+  font-size: 18px;
+
 }
 
 /* -----------------------Top Nav Bar (Right Side)----------------------- */
@@ -87,13 +75,12 @@
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  /* width: 80%; */
   /* background-color: teal; */
 }
 
 #right-nav i {
   color: #fff;
-  font-size: 20px;
+  font-size: 1vw;
   width: 20%;
 }
 
@@ -111,7 +98,7 @@
 }
 
 #text h3 {
-  font-size: 3vw;
+  font-size: 60px;
   font-weight: 200;
 }
 
@@ -134,11 +121,12 @@
 }
 
 #right-text h4 {
+  font-size: 18px;
   padding-bottom: 20px;
   font-weight: 400;
 }
 #right-text p {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 200;
   width: 70%;
   /* background-color: #FF3800; */
@@ -173,6 +161,7 @@
   padding-bottom: 30px;
   font-weight: 400;
   color: #5c5959fd;
+  font-size: 18px;
 }
 
 #div-one p {
@@ -181,7 +170,7 @@
 }
 
 #arrow-div {
-  position: relative;
+  position: absolute;
   bottom: 15%;
   align-items: center;
   justify-content: center;
@@ -200,7 +189,7 @@
 
 /* ___Third Div___ */
 
-/* ---------TOP--------- */
+
 #div-three {
   position: relative;
   min-height: inherit;
@@ -208,8 +197,10 @@
   /* background-color: #000; */
 }
 
+/* ---------TOP--------- */
+
 #three-top {
-  height: 50%;
+  min-height: 20vh;
   width: 100%;
   padding: 50px 80px 50px 60px;
   background-color: #ff3800;
@@ -218,10 +209,12 @@
 #three-top h4 {
   padding-bottom: 25px;
   font-weight: 500;
+  font-size: 18px;
+
 }
 
 #three-top p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 200;
   line-height: 1.3;
 }
@@ -229,7 +222,7 @@
 /* ---------BOTTOM--------- */
 #three-bottom {
   width: 100%;
-  height: 50%;
+  min-height: 20vh;
   background-image: url(https://images.unsplash.com/photo-1661372093469-ba7d9d6956a7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: center;
@@ -245,7 +238,7 @@
 }
 
 #div-four h5 {
-  font-size: 18px;
+  font-size: .8vw;
   font-weight: 400;
   padding-bottom: 25px;
 }
@@ -261,6 +254,7 @@
   width: 50px;
   height: 50px;
   margin-bottom: 25px;
+  margin-right: 10px;
   border-radius: 50%;
   /* background-color: red; */
 }
@@ -279,27 +273,30 @@
 .notification-bar p {
   /* background-color: #b43434; */
   width: 87%;
-  font-size: 13px;
+  font-size: 14px
 }
 
-/* -----------------------Footer Div----------------------- */
+/* ----------------------- Notification bar Footer----------------------- */
 
-#footer {
-  /* position: absolute; */
+#navBar-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px;
   width: 100%;
-  /* top: 90%; */
-  /* background-color: #000; */
+  /*background-color: #000; */
 }
 
-#footer-right {
-  color: #fffefe;
+#navBar-footer-left {
+  font-size: large;
+}
+#navBar-footer-right {
+  font-size: large;
 }
 
-/* -----------------------Media Query----------------------- */
+/* ---------------------------------------------------------------------Media Query--------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------Media Query--------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------Media Query--------------------------------------------------------------------- */
 
 @media (max-width: 720px) {
   /* -----------------------Top Nav Bar (Left Side)----------------------- */
@@ -314,7 +311,7 @@
     height: 30px;
     width: 100%;
     /* background-color: rgba(238, 130, 238, 0.39); */
-    padding: 0 5vw;
+    padding: 0.5vw;
   }
 
   #account-info {
@@ -332,7 +329,7 @@
   }
 
   #profile-nav p {
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 10px;
   }
 
@@ -355,47 +352,48 @@
   #text {
     display: flex;
     /* align-items: center; */
-
+    top: 30px;
     flex-direction: column;
     justify-content: center;
-    bottom: 30px;
+    bottom: -50px;
   }
 
   #text h3 {
     position: absolute;
-    top: -50%;
-    font-size: 10vw;
+    top: 15%;
+    font-size: 60px;
     font-weight: 200;
-  }
-
-  #right-text {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #paragraph p {
-    text-align: left;
-    padding-bottom: 30px;
   }
 
   /* -----------------------Top Div Content (Right Side)----------------------- */
   #right-text {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     /* background-color: yellowgreen; */
-    width: 38%;
+    width: 33%;
   }
 
   #right-text h4 {
+    font-size: 20px;
     padding-bottom: 8px;
     font-weight: 400;
   }
 
+
+  #right-text p {
+    text-align:left;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 100;
+
+  }
+
   #icons {
+    padding-top: 20px;
     font-size: 4vw;
-    align-items: center;
+    align-items: left;
     justify-content: center;
   }
 
@@ -408,28 +406,71 @@
 
   /* -----------------------Sub-Bottom Division----------------------- */
 
+#bottom-div{
+  min-height: 20vh
+}  
 /* ___First Div___ */
 
 #div-one {
-    /* z-index: 1; */
     width: 100%;
   }
-  
+#div-one h4{
+  font-size: 3.2vw;
+}
+
+#div-one p {
+  font-size: 2.5vw;
+
+}
+#arrow-div{
+ font-size: 4vw;
+}
+
+/* ----------------------------------------- */
+
 #div-two {
     width: 100%;
+    min-height: 40vh;
   }
-  
+/* ----------------------------------------- */
+
 #div-three {
-
     width: 100%;
   }
-  
+
+#three-top{
+  padding: 50px 180px 50px 100px;
+  min-height: inherit;
+}
+#three-top h4 {
+  font-size: 3.2vw;
+}
+#three-top p {
+  font-size: 2.5vw;
+}
+#three-bottom{
+  min-height: 25vh;
+}
+/* ----------------------------------------- */
+
 #div-four {
-    z-index: 1;
-
+    padding: 40px;
     width: 100%;
   }
-  
+
+  #div-four h5{
+  font-size: 2.9vw;
+  }
+ .notification-bar .profile{
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+ }
+ .notification-bar p{
+  font-size: 2.3vw;
+  width: 86%;
+ }
 }
 
 /* --------------------------------------------------------------- */
