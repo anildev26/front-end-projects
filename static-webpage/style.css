@@ -20,7 +20,7 @@
 #top-div{
     min-height: 60vh;
     width: 100%;
-    background-image: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1450849608880-6f787542c88a?auto=format&fit=crop&q=80&w=2021&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position:bottom;
     background-size: cover;
     display: flex;
@@ -28,13 +28,13 @@
 }
 
 /* -----------------------Bakchodi (background image pe) ----------------------- */
-#pissing_guy {
+/* #pissing_guy {
     position: absolute;
     top: 192px;
     left: 194px;
     width: 350px;
     height: 200px;
-}
+} */
 
 /* -----------------------Overlay with all text part----------------------- */
 
