@@ -8,7 +8,7 @@
 }
 
 #main-container{
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     position: fixed;
     background-color: #393c4ee1;
@@ -18,7 +18,7 @@
 /* -----------------------Top Division----------------------- */
 
 #top-div{
-    height: 60%;
+    min-height: 60vh;
     width: 100%;
     background-image: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position:bottom;
@@ -40,7 +40,7 @@
 
 #overlay{
     width: 100%;
-    height: 100%;
+    min-height: inherit;
     position: relative;
     background-color: rgba(0, 0, 0, 0.301);
 }
@@ -62,7 +62,7 @@
 }
 
 #profile-nav i{
-    font-size: 1.5vw;
+    font-size:35px;
     padding-right: 20px;
     color: #FF3800; 
     /* text-align: center; */
@@ -144,7 +144,7 @@
 /* -----------------------Bottom Division----------------------- */
 
 #bottom-div{
-    height: 40%;
+    min-height: 40vh;
     width: 100%;
     background-color: yellow;
     display: flex;
@@ -156,7 +156,7 @@
 
 #div-one{
     position: relative;
-    height: 100%;
+    min-height: inherit;
     width: 20%;
     background-color: rgb(250, 255, 255);
     color: #000;
@@ -187,25 +187,111 @@
 /* ___Second Div___ */  
 
 #div-two{
-    height: 100%;
-    width: 25%;
-    background-color: rgb(117, 235, 39);
+    min-height: inherit;
+    width: 30%;
+    background-image: url(https://media.tatonka.com/images/product-tile-l/8414062a.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
 
 /* ___Third Div___ */
 
+/* ---------TOP--------- */
 #div-three{
-    height: 100%;
-    width: 25%;
-    background-color: rgb(115, 14, 161);
+    position: relative;
+    min-height: inherit;
+    width: 20%;
+    background-color: #000;
 }
 
+#three-top{
+    height: 50%;
+    width: 100%;
+    padding: 50px 80px 50px 60px;
+    background-color: #FF3800;
+}
+
+#three-top h4{
+    padding-bottom: 25px;
+    font-weight: 500;
+}
+
+#three-top p{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.3;
+}
+
+/* ---------BOTTOM--------- */
+#three-bottom{
+    width: 100%;
+    height: 50%;
+    background-image:url(https://images.unsplash.com/photo-1661372093469-ba7d9d6956a7?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;    
+}
 
 /* ___Fourth Div___ */
 
 #div-four{
-    height: 100%;
-    width: 25%;
-    background-color: rgb(240, 100, 45);
+    min-height: inherit;
+    width: 30%;
+    background-color: #2a2a2a;
+    padding: 50px;
+}
+
+#div-four h5{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.notification-bar{
+    display: flex;
+    /* background-color: rgba(0, 0, 0, 0.829); */
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+
+.notification-bar .profile{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+.notification-bar #profile1{
+    background-image: url(https://i.pinimg.com/564x/4e/da/21/4eda214b29a239c5df2cdcb031ee3eeb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.notification-bar #profile2{
+    background-image: url(https://images.randomhouse.com/author/226078);
+    background-size: cover;
+    background-position: center;
+}
+
+.notification-bar p{
+    /* background-color: #b43434; */
+    width: 87%;
+    font-size: 13px;
+}
+
+/* -----------------------Footer Div----------------------- */
+
+#footer {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    /* top: 90%; */
+    /* background-color: #000; */
+}
+
+#footer-right {
+    color: #fffefe;
 }
