@@ -42,7 +42,7 @@
     width: 100%;
     min-height: inherit;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.466);
 }
 
 
@@ -146,7 +146,7 @@
 #bottom-div{
     min-height: 40vh;
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
 }
 
@@ -202,7 +202,7 @@
     position: relative;
     min-height: inherit;
     width: 20%;
-    background-color: #000;
+    /* background-color: #000; */
 }
 
 #three-top{
