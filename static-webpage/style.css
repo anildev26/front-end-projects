@@ -63,7 +63,6 @@
 
 #profile-nav p {
   font-size: 18px;
-
 }
 
 /* -----------------------Top Nav Bar (Right Side)----------------------- */
@@ -189,7 +188,6 @@
 
 /* ___Third Div___ */
 
-
 #div-three {
   position: relative;
   min-height: inherit;
@@ -210,7 +208,6 @@
   padding-bottom: 25px;
   font-weight: 500;
   font-size: 18px;
-
 }
 
 #three-top p {
@@ -238,7 +235,7 @@
 }
 
 #div-four h5 {
-  font-size: .8vw;
+  font-size: 0.8vw;
   font-weight: 400;
   padding-bottom: 25px;
 }
@@ -273,7 +270,7 @@
 .notification-bar p {
   /* background-color: #b43434; */
   width: 87%;
-  font-size: 14px
+  font-size: 14px;
 }
 
 /* ----------------------- Notification bar Footer----------------------- */
@@ -297,8 +294,6 @@
 /* ---------------------------------------------------------------------Media Query--------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------Media Query--------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------Media Query--------------------------------------------------------------------- */
-
-
 
 @media (max-width: 720px) {
   /* -----------------------Top Nav Bar (Left Side)----------------------- */
@@ -383,13 +378,11 @@
     font-weight: 400;
   }
 
-
   #right-text p {
-    text-align:left;
+    text-align: left;
     padding-bottom: 30px;
     font-size: 15px;
     font-weight: 100;
-
   }
 
   #icons {
@@ -408,75 +401,74 @@
 
   /* -----------------------Sub-Bottom Division----------------------- */
 
-#bottom-div{
-  min-height: 20vh
-}  
-/* ___First Div___ */
+  #bottom-div {
+    min-height: 20vh;
+  }
+  /* ___First Div___ */
 
-#div-one {
+  #div-one {
     width: 100%;
   }
-#div-one h4{
-  font-size: 3.2vw;
-}
+  #div-one h4 {
+    font-size: 3.2vw;
+  }
 
-#div-one p {
-  font-size: 2.5vw;
+  #div-one p {
+    font-size: 2.5vw;
+  }
+  #arrow-div {
+    font-size: 4vw;
+  }
 
-}
-#arrow-div{
- font-size: 4vw;
-}
+  /* ----------------------------------------- */
 
-/* ----------------------------------------- */
-
-#div-two {
+  #div-two {
     width: 100%;
     min-height: 40vh;
   }
-/* ----------------------------------------- */
+  /* ----------------------------------------- */
 
-#div-three {
+  #div-three {
     width: 100%;
   }
 
-#three-top{
-  padding: 50px 180px 50px 100px;
-  min-height: inherit;
-}
-#three-top h4 {
-  font-size: 3.2vw;
-}
-#three-top p {
-  font-size: 2.5vw;
-}
-#three-bottom{
-  min-height: 25vh;
-}
-/* ----------------------------------------- */
+  #three-top {
+    padding: 50px 180px 50px 100px;
+    min-height: inherit;
+  }
+  #three-top h4 {
+    font-size: 3.2vw;
+  }
+  #three-top p {
+    font-size: 2.5vw;
+  }
+  #three-bottom {
+    min-height: 25vh;
+  }
+  /* ----------------------------------------- */
 
-#div-four {
+  #div-four {
     padding: 40px;
     width: 100%;
   }
 
-  #div-four h5{
-  font-size: 2.9vw;
+  #div-four h5 {
+    font-size: 2.9vw;
   }
- .notification-bar .profile{
-  width: 60px;
-  height: 60px;
-  justify-content: center;
-  align-items: center;
- }
- .notification-bar p{
-  font-size: 2.3vw;
-  width: 86%;
- }
+  .notification-bar .profile {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  .notification-bar p {
+    font-size: 2.3vw;
+    width: 86%;
+  }
 }
 
 /* --------------------------------------------------------------- */
-
+/* Incomplete tablet queries */
 @media screen and (min-width: 720px) and (max-width: 1280px) {
   #text {
     align-items: center;
